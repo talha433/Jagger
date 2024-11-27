@@ -545,7 +545,7 @@ mysql -u root -p rr3 < /home/username/rr3_backup.sql
 
 ## Setup Jagger Registry
 
-Go to https://jagger.example.org/rr3/setup and create the Admin user.
+Go to https://yourjaggerdomainname/rr3/setup and create the Admin user.
 
 After that, set to FALSE the line:
 
