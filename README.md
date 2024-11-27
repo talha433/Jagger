@@ -177,11 +177,11 @@ sudo apt install apache2
 Enable the required Apache modules:
 
 ``` text
-a2enmod rewrit
+sudo a2enmod rewrit
 ```
 
 ``` text
-a2enmod unique_id
+sudo a2enmod unique_id
 ```
 
 ``` text
