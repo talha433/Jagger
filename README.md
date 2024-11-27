@@ -391,6 +391,7 @@ mysql -u root
   - `$config['index_page'] = '';`
   - `$config['log_threshold'] = 1;`
   - `$config['log_path'] = '/var/log/rr3/';`
+  - `$config['cookie_secure'] =` `TRUE`(for https) `FALSE` (for http)
   - `$config['encryption_key'] = '<ENCRYPTION-KEY>';`
 
      `<ENCRYPTION-KEY>` generation:
@@ -534,12 +535,12 @@ SHOW DATABASES;
 ```
 Step 2: Create backup
 ```text
-mysqldump -u root -p rr3 > /home/user/rr3_backup.sql
+mysqldump -u root -p rr3 > /home/username/rr3_backup.sql
 ```
 
 Step 3: Restore the database
 ```text
-mysql -u root -p rr3 < /home/user/rr3_backup.sql
+mysql -u root -p rr3 < /home/username/rr3_backup.sql
 ```
 
 ## Setup Jagger Registry
