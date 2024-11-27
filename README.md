@@ -264,8 +264,9 @@ service apache2 restart
      ```
 
      replace `"mtdowling/cron-expression": "1.1.*",` with `"dragonmantank/cron-expression": "3.*",`
+     replace version of  `"laminas/laminas-permissions-acl":` with `"2.*",`
      
-     and Check the version of the following installed libraries on the server and change the version on this `composer.json` file.
+     and if there any issue Check the version of the following installed libraries on the server and change the version on this `composer.json` file.
       
    - ```txt
      cd /opt/rr3/application ; sudo composer install
