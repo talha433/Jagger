@@ -551,7 +551,7 @@ After that, set to FALSE the line:
 
 `$config['rr_setup_allowed'] = TRUE`
 
-on `/opt/rr3/application/config/config_rr.php`
+on `vim /opt/rr3/application/config/config_rr.php`
 
 ## Documentation
 
