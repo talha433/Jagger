@@ -384,7 +384,7 @@ mysql -u root
   cp config-default.php config.php
   ```
 
-  `config.php` base configuration:
+  `vim config.php` base configuration:
 
   - `$config['base_url'] = 'https://jagger.example.org/rr3';`
   - `$config['index_page'] = '';`
@@ -402,7 +402,7 @@ mysql -u root
   cp config_rr-default.php config_rr.php
   ```
 
-  `config_rr.php` base configuration:
+  `vim config_rr.php` base configuration:
 
   - `$config['rr_setup_allowed'] = TRUE`  (HAS TO COME BACK to FALSE after Jagger setup)
   - `$config['site_logo'] = 'logo-default.png';`  (set filename to be used as main logo in top-left corner. File should be stored in `/opt/rr3/images/` folder.)
@@ -436,7 +436,7 @@ mysql -u root
   cp database-default.php database.php
   ```
 
-  `database.php` base Configuration:
+  `vim database.php` base Configuration:
   - `$db['default']['hostname'] = '127.0.0.1';`
   - `$db['default']['username'] = 'rr3user';`
   - `$db['default']['password'] = 'rr3pass';`
