@@ -275,7 +275,7 @@ service apache2 restart
 
    - ```text
      cp /opt/codeigniter/index.php /opt/rr3/
-     cd /opt/rr3
+     vim /opt/rr3/index.php
      ```
 
      by setting `$system_path = '/opt/codeigniter/system'`.
